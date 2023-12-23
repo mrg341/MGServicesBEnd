@@ -4,3 +4,5 @@ CREATE TABLE users_working_hours (
 	hours_left INT,
 	hours_worked INT
 );
+
+INSERT INTO users_working_hours (id, user_id, hours_left, hours_worked)
