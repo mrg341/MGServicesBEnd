@@ -11,7 +11,7 @@ INSERT INTO Users (id, username, password_hash, name, lastname, birthdate, phone
 VALUES (, '', crypt('', gen_salt('bf')), '', '', 'XXXX-YY-ZZ', '', '', '', '', '', '', '0')
 -- User add Syntax End
 
-SELECT * FROM Users
+SELECT * FROM Users_data
 
 -- Update a value syntax Init
 UPDATE {{Table}}
